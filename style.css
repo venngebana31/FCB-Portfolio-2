@@ -1,0 +1,38 @@
+*{
+	font-family: "Roboto", sans-serif;
+	color: black;
+	text-shadow: 0 0 5px #f7f4f2, 0 0 5px #0000FF
+}
+
+h1, p{
+	font-family: "Montserrat", sans-serif;
+	color: black;
+	text-shadow: 0 0 5px #f7f4f2, 0 0 5px #0000FF
+}
+ #profile{
+ 	height: 250px;
+ 	width: 250px;
+
+ 	border-radius: 50%;
+
+ 	border-color: white;
+ 	border-width: 7px;
+ 	border-style: solid;
+ }
+
+ body{
+ 	background-color: #262523;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%2321201e' fill-opacity='0.3'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.3'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+ }
+
+#landing{
+	/* vh = view height	*/
+	height: 90vh; 
+/*	background-color: black;*/
+
+/* align items in 1 colum only, then included contents in center */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
